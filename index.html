@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access</title>
+    <!-- this has to be a css file -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <div id="siteContainer">
+        <header id="mainHeader">
+            <div id="logo" class="animate__animated animate__flash">
+                <img class="iconImage" src="images/LOGO.jpg" alt="logo" width="350px" height="250px">
+
+            </div>
+        </header>
+        <!-- Close mainHeader -->
+        <div id="Categories_area">
+            <div id="Video_section" class="animate__animated animate__backInLeft">
+                <h2>Movie & TV Shows</h2>
+                <a href="video.html" id="video_thumbnails" onclick="document.location=video+'.html';return false;">
+                    <img src="images/video_image.jpg" alt="video" class="thumbnails" width="550px" height="450px">
+                </a>
+                <!-- <button class="button_closed"></button> -->
+            </div>
+            <!-- Close Video section -->
+            <div id="Audio_section" class="animate__animated animate__backInRight">
+                <h2>MUSIC</h2>
+                <a href="audio.html" id="audio_thumbnails" onclick="document.location=audio+'.html';return false;">
+                    <img src="images/audio_image.jpg" alt="audio" class="thumbnails" width="550px" height="450px">
+                    <button id="button_closed"></button>
+                </a>
+            </div>
+            <!-- Close audio section -->
+        </div>
+        <div id="solid"></div>
+        <!-- script files always go here -->
+
+    </div>
+    <script type="module" src="js/function.js"></script>
+    <script type="module" src="js/video.js"></script>
+</body>
+
+</html>

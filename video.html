@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Page</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+    <div id="siteContainer">
+        <header id="mainHeader">
+            <div id="logo">
+                <a href="index.html" id="logo" onclick="document.location=index+'.html';return false;">
+                    <img src="images/LOGO.jpg" alt="LOGO" class="thumbnails" width="350px" height="250px">
+                </a>
+            </div>
+        </header>
+        <!-- Close mainHeader -->
+        <h2>DUNKIRK</h2>
+        <div id="Video_area">
+            <video id="bigVideo" controls autoplay muted>
+            <source src="images/Dunkirk.mp4" type="video/mp4">
+                <track label="English" kind="captions" srclang="en" src="captions/Dunkirk.vtt" lable="English captions" default />
+            </video>
+            <div id="video-controls" class="controls" data-state="hidden">
+
+            </div>
+            <p>Dunkirk evacuation, (1940) in World War II, the evacuation of the British Expeditionary Force (BEF) and other Allied troops from the French seaport of Dunkirk (Dunkerque) to England. Naval vessels and hundreds of civilian boats were used in
+                the evacuation, which began on May 26.
+            </p>
+        </div>
+
+        <h3>GRACE</h3>
+        <div id="TVSHOW_area">
+            <p>Written by the critically-acclaimed screenwriter, Russell Lewis, this adaptation of the bestseller by Peter James stars John Simm. Following the Brighton-based Detective Roy Grace who has hit rock-bottom in his life. His wife Sandy disappeared
+                6 years ago and he spends all his time investigating cold cases. Meanwhile, his different ways of working are being questioned by his bosses, risking his job. Things change when his colleague Detective Glenn Branson asks for his help on
+                a difficult case.</p>
+            <video id="bigVideo" controls autoplay muted>
+                <source src="images/GRACE.mp4" type="video/mp4">
+                    <track label="English" kind="captions" srclang="en" src="captions/GRACE.vtt" lable="English captions" default />
+            </video>
+
+        </div>
+        <!-- script files always go here -->
+
+    </div>
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
