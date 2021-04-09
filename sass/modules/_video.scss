@@ -1,0 +1,87 @@
+#Video_area {
+    position: relative;
+    flex-direction: row;
+    margin-left: 30px;
+    p {
+        position: absolute;
+        text-align: center;
+        width: 400px;
+        font-size: 20px;
+        margin-left: 1370px;
+        bottom: 300px;
+    }
+}
+
+#bigVideo {
+    display: flex;
+    flex-direction: row;
+}
+
+#TVSHOW_area {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 60px;
+    p {
+        text-align: center;
+        width: 450px;
+        margin-top: 300px;
+        margin-right: 100px;
+        font-size: 20px;
+    }
+}
+
+#siteContainer {
+    h2 {
+        font-size: 50px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+    h3 {
+        float: right;
+        font-size: 50px;
+        margin-right: 20px;
+    }
+}
+
+.controls button[data-state="subtitles"] {
+    position: absolute;
+    height: 3%;
+    text-indent: 0;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: black;
+    border-radius: 2px;
+    top: 660px;
+    left: 1080px;
+}
+
+.subtitles-menu {
+    display: none;
+    position: absolute;
+    bottom: 14.8%;
+    right: 20px;
+    background: #666;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    padding: 10px;
+}
+
+.subtitles-menu li {
+    padding: 0;
+    text-align: center;
+}
+
+.subtitles-menu li button {
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    width: 90%;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
