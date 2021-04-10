@@ -1,4 +1,4 @@
-# Mini Apps
+# AV Accessibility Research Project
 This is a simple web page for visitors to check out videos and audios within two different sections, download the file to checkout further information and functions.  
 ## Contributing
 1. Fork it!
