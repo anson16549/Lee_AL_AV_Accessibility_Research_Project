@@ -20,14 +20,18 @@
             </div>
         </header>
         <!-- Close mainHeader -->
-        <h2>DUNKIRK</h2>
+        <h4>DUNKIRK</h4>
         <div id="Video_area">
             <video id="bigVideo" controls autoplay muted>
             <source src="images/Dunkirk.mp4" type="video/mp4">
                 <track label="English" kind="captions" srclang="en" src="captions/Dunkirk.vtt" lable="English captions" default />
             </video>
             <div id="video-controls" class="controls" data-state="hidden">
+                <button id="speedUp">Speed Up <br> <span id="speedText"></span> <br><img src="images/up-arrow.svg" alt="speed up"></button>
 
+                <button id="slowDown">Slow Down <br> <span id="speed-down-Text"></span> <br><img src="images/down-arrow.svg" alt="slow down"></button>
+
+                <button id="reset">Reset Speed</button>
             </div>
             <p>Dunkirk evacuation, (1940) in World War II, the evacuation of the British Expeditionary Force (BEF) and other Allied troops from the French seaport of Dunkirk (Dunkerque) to England. Naval vessels and hundreds of civilian boats were used in
                 the evacuation, which began on May 26.
@@ -39,16 +43,25 @@
             <p>Written by the critically-acclaimed screenwriter, Russell Lewis, this adaptation of the bestseller by Peter James stars John Simm. Following the Brighton-based Detective Roy Grace who has hit rock-bottom in his life. His wife Sandy disappeared
                 6 years ago and he spends all his time investigating cold cases. Meanwhile, his different ways of working are being questioned by his bosses, risking his job. Things change when his colleague Detective Glenn Branson asks for his help on
                 a difficult case.</p>
-            <video id="bigVideo" controls autoplay muted>
+            <video id="secondVideo" controls autoplay muted>
                 <source src="images/GRACE.mp4" type="video/mp4">
                     <track label="English" kind="captions" srclang="en" src="captions/GRACE.vtt" lable="English captions" default />
+                    
             </video>
+
+            <button id="speedUp2">Speed Up <br> <span id="speedText2"></span> <br><img src="images/up-arrow.svg" alt="speed up"></button>
+
+            <button id="slowDown2">Slow Down <br> <span id="speed-down-Text2"></span> <br><img src="images/down-arrow.svg" alt="slow down"></button>
+
+            <button id="reset2">Reset Speed</button>
+
 
         </div>
         <!-- script files always go here -->
 
     </div>
     <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/speed.js"></script>
 </body>
 
 </html>

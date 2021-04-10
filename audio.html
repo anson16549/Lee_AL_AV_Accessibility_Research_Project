@@ -8,6 +8,7 @@
     <title>MUSIC</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
@@ -19,10 +20,10 @@
                 </a>
             </div>
         </header>
+        <h5 class="animate__animated animate__rotateIn">Cartoon - On & On</h5>
+        <div id="audio_area" class="animate__animated animate__rollIn">
 
-        <div id="audio_area">
-            <h2>Cartoon - On & On</h2>
-            <audio id="bigVideo" controls autoplay>
+            <audio id="Music" controls autoplay>
                 <source src="images/Cartoon.mp3" type="audio/mp3">
             </audio>
 
@@ -81,11 +82,18 @@
                 And on and on we'll go
             </div>
             </label>
+            <div id="control_pannel">
 
+                <button id="speedUp3">Speed Up <br> <span id="speedMusic"></span> <br><img src="images/up-arrow.svg" alt="speed up"></button>
 
+                <button id="slowDown3">Slow Down <br> <span id="speed-down-Text-Music"></span> <br><img src="images/down-arrow.svg" alt="slow down"></button>
 
+                <button id="resetMusic">Reset Speed</button>
+
+            </div>
         </div>
         <script type="module" src="js/main.js"></script>
+        <script type="module" src="js/MUSIC.js"></script>
 </body>
 
 </html>
